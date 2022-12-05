@@ -1,9 +1,11 @@
 import time
+
 import keras_cv
-from tensorflow  import keras
 import matplotlib.pyplot as plt
-from var import model
+from tensorflow import keras
+
 from fn import plot_images
+from var import model
 
 images = model.text_to_image("cookie", batch_size=1)
 
